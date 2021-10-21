@@ -1,0 +1,248 @@
+* {
+  font-family: "Bebas Neue", cursive;
+  background: rgb(48, 250, 65);
+  margin: 0;
+  padding: 0;
+}
+
+.mainh1 {
+  color: #000;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  margin-top: 2%;
+}
+
+.mainContainer {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  background: chartreuse;
+  width: 500px;
+  height: 600px;
+  margin-left: 33%;
+  margin-top: 6%;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.firstButton {
+  margin-top: 10%;
+  font-size: 25px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+.firstButton:hover {
+  background: #2a9020;
+}
+
+.secondButton {
+  margin-top: 10%;
+  font-size: 25px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+.secondButton:hover {
+  background: #2a9020;
+}
+
+.thirdButton {
+  margin-top: 10%;
+  font-size: 25px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+.thirdButton:hover {
+  background: #2a9020;
+}
+
+.fourthButton {
+  margin-top: 10%;
+  font-size: 25px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+.fourthButton:hover {
+  background: #2a9020;
+}
+
+.fifthButton {
+  color: white;
+  margin-top: 10%;
+  font-size: 25px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-image: url("gifs/justStars.gif");
+}
+.fifthButton:hover {
+  color: rgb(128, 129, 128);
+}
+
+.picDiv {
+  background-color: transparent;
+}
+#daBabyPic {
+  width: 500px;
+  height: 280px;
+  margin-top: -600px;
+  text-align: left;
+  margin-left: 8px;
+}
+.dababyDiv {
+  background: transparent;
+  display: flex;
+  position: inherit;
+}
+
+#lilPumpPic {
+  width: 500px;
+  height: 280px;
+  margin-top: -600px;
+  margin-left: 1050px;
+}
+.lilPumpDiv {
+  display: flex;
+  position: inherit;
+  background: transparent;
+}
+
+#drakePic {
+  width: 500px;
+  height: 280px;
+  text-align: left;
+  margin-left: 8px;
+}
+
+.drakeDiv {
+  display: flex;
+  position: absolute;
+  background: transparent;
+  margin-top: -300px;
+}
+
+#futurePic {
+  width: 500px;
+  height: 280px;
+  margin-left: 1050px;
+}
+.futureDiv {
+  display: flex;
+  position: inherit;
+  background: transparent;
+  margin-top: -300px;
+  margin-bottom: -100px;
+}
+#kendrickPic {
+  background: transparent;
+  width: 1320px;
+  height: auto;
+}
+
+.kendrickDiv {
+  display: flex;
+  position: inherit;
+  background: transparent;
+  margin-top: -380px;
+  margin-left: 120px;
+}
+
+#stars {
+  width: 1600px;
+  height: 789px;
+  margin: 0;
+  padding: 0;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: -90px;
+}
+@media only screen and (max-device-width: 667px) {
+  .mainContainer {
+    width: 250px;
+    height: 950px;
+  }
+  #theBody {
+    margin-left: -25%;
+  }
+  .fifthButton {
+    margin-top: 60%;
+    margin-bottom: 0;
+  }
+  #kendrickPic {
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    height: 200px;
+    margin-top: 260px;
+    margin-left: -15px;
+    margin-bottom: 0;
+  }
+  #stars {
+    width: 379px;
+    height: 667px;
+    margin: 0;
+    padding: 0;
+    margin-top: 00px;
+    margin-left: 90px;
+  }
+  .fourthButton {
+    margin-top: 60%;
+    margin-bottom: 0;
+  }
+  #futurePic {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 100px;
+    margin-left: 183px;
+    margin-top: 95px;
+  }
+  .thirdButton {
+    margin-top: 60%;
+    margin-bottom: 0;
+  }
+  #drakePic {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 100px;
+    margin-left: 183px;
+    margin-top: -107px;
+  }
+  .secondButton {
+    margin-top: 60%;
+    margin-bottom: 0;
+  }
+  #lilPumpPic {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 100px;
+    margin-left: 183px;
+    margin-top: -607px;
+  }
+  .firstButton {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #daBabyPic {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 100px;
+    margin-left: 183px;
+    margin-top: -807px;
+  }
+}

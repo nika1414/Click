@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html id="allHTML" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <title>Click</title>
+  </head>
+  <body id="theBody" style="display: block">
+    <div style="display: block" id="mainContainer" class="mainContainer">
+      <h1 class="mainh1">Click</h1>
+      <button onclick="DaBaby()" class="firstButton" id="firstButton">
+        Click To See daBaby
+      </button>
+      <button onclick="LilPump()" class="secondButton" id="secondButton">
+        Click To See lil Pump
+      </button>
+      <button onclick="Drake()" class="thirdButton" id="thirdButton">
+        Click To See Drake
+      </button>
+      <button onclick="Future()" class="fourthButton" id="fourthButton">
+        Click To See Future
+      </button>
+      <button onclick="Kendrick()" class="fifthButton" id="fifthButton">
+        Click To See Kendrick
+      </button>
+    </div>
+    <img style="display: none" id="stars" src="gifs/stars.gif" />
+
+    <div class="picDiv">
+      <div class="dababyDiv">
+        <img src="images/dababy.png" id="daBabyPic" style="display: none" />
+      </div>
+      <div class="lilPumpDiv">
+        <img src="images/lilPump.png" id="lilPumpPic" style="display: none" />
+      </div>
+      <div class="drakeDiv">
+        <img src="images/drake.png" id="drakePic" style="display: none" />
+      </div>
+      <div class="futureDiv">
+        <img src="images/future.jpg" id="futurePic" style="display: none" />
+      </div>
+      <div class="kendrickDiv">
+        <img src="images/kendrick.png" id="kendrickPic" style="display: none" />
+        <audio src="audio/kendrickAudio.mp3"></audio>
+      </div>
+    </div>
+  </body>
+</html>
